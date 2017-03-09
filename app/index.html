@@ -21,7 +21,7 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="icon-toggle"></span>
       </button>
-      <a class="navbar-brand" href="#">Logo</a>
+      <a class="navbar-brand" href="#"><img src="img/logo.jpg"/></a>
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right" uib-dropdown is-open="status.isopen">        
@@ -44,8 +44,8 @@
 <!-- Main -->
 <div class="container">  
   
-  <div class="row">
-    <div class="col-sm-2">
+  
+    <div class="col-sm-2 left-sidebar" style="height:75%;position:fixed;top:0px;">
         <!-- left -->
         <!--h3> Menus</h3>
         <hr-->      
@@ -59,12 +59,15 @@
         <!--hr-->      
     </div><!-- /span-3 -->
 
-    <ui-view>Content</ui-view>
           
-  </div><!--/row-->
+ 
   
-</div><!--/container-->
+
 <!-- /Main -->
+<div style="position:relative;"> 
+<ui-view>Content</ui-view>
+</div>
+</div>
 
 <footer class="text-center">@ Copyright</footer>
 

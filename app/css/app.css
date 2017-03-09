@@ -1,6 +1,14 @@
   body {
     background-color: #f8f8f8;
   }
+
+  .left-sidebar {
+      background-color: #eee;      
+  }
+
+  .left-sidebar > ul{
+    padding:15px 0;
+  }
   .navbar-static-top {
     margin-bottom:20px;
     background-color:#30426a;
@@ -9,6 +17,10 @@
 
   i {
     font-size:18px;
+  }
+
+  hr{
+    border-top: 1px solid #B0ACAC;
   }
     
   footer {
@@ -41,4 +53,7 @@
   .nav>li.active{
     font-weight:600;
   }
+
+
+  
   
