@@ -42,10 +42,9 @@
 <!-- /Header -->
 
 <!-- Main -->
-<div class="container">  
-  
-  
-    <div class="col-sm-2 left-sidebar" style="height:75%;position:fixed;top:0px;">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2 left-sidebar">
         <!-- left -->
         <!--h3> Menus</h3>
         <hr-->      
@@ -58,17 +57,10 @@
         </ul>      
         <!--hr-->      
     </div><!-- /span-3 -->
-
-          
- 
-  
-
+    <div ui-view>Content</div>
+  </div>
+</div>
 <!-- /Main -->
-<div style="position:relative;"> 
-<ui-view>Content</ui-view>
-</div>
-</div>
-
 <footer class="text-center">@ Copyright</footer>
 
 <!-- SCRIPTS -->
